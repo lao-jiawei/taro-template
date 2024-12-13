@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "book-of-answer",
+  "appid": "testAppId",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
