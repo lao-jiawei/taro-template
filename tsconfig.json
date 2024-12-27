@@ -13,18 +13,20 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "sourceMap": true,
+    "baseUrl": ".",
     "rootDir": ".",
-    "jsx": "react-jsx",
+    "jsx": "preserve",
+    "jsxFactory": "Taro.createElement",
     "allowJs": true,
     "resolveJsonModule": true,
     "typeRoots": [
-      "node_modules/@types"
-    ],
-    "paths": {
-      // TS5090 leading './'
-      "@/*": ["./src/*"]
-    }
+      "node_modules/@types",
+      "global.d.ts"
+    ]
   },
-  "include": ["./src", "./types", "./config"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "compileOnSave": false
 }
