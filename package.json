@@ -1,6 +1,6 @@
 {
   "name": "taro-scaffold-template",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "private": false,
   "bin": {
     "create-taro-app": "./bin/index.js"
