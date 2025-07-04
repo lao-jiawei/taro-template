@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.temp/
+.rn_temp/
+deploy_versions/
+__tests__/
+.DS_Store
+package-lock.json
+pnpm-lock.yaml
+.git/
+.gitignore

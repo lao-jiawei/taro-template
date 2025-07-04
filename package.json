@@ -1,7 +1,10 @@
 {
-  "name": "book-of-answer",
-  "version": "1.0.0",
-  "private": true,
+  "name": "taro-scaffold-template",
+  "version": "1.0.2",
+  "private": false,
+  "bin": {
+    "create-taro-app": "./bin/index.js"
+  },
   "description": "",
   "templateInfo": {
     "name": "default",
@@ -57,6 +60,7 @@
     "@tarojs/service": "^4.0.6",
     "@tarojs/shared": "3.6.30",
     "@tarojs/taro": "3.6.30",
+    "commander": "^10.0.0",
     "fs-extra": "^11.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
